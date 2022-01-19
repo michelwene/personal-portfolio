@@ -1,0 +1,45 @@
+.attribuiton {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 77%;
+}
+
+.contact {
+  text-transform: uppercase;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 15px;
+}
+
+.contact__button {
+  background-color: #ffffff;
+  border: 2px solid #c6c6c6;
+  border-radius: 5px;
+  height: 50px;
+  width: 210px;
+}
+
+.contact__button a {
+    color: #000;
+  text-decoration: none;
+}
+
+.contact__email {
+  background: url(../images/mail-black.svg) 20px 13px / 24px no-repeat;
+}
+
+.contact__linkedin {
+  background: url(../images/linkedin-black.svg) 35px 13px / 24px no-repeat;
+}
+
+.contact__medium {
+  background: url(../images/medium-black.svg) 35px 13px / 24px no-repeat;
+}
+
+.contact__github {
+  background: url(../images/github-black.svg) 35px 13px / 24px no-repeat;
+}

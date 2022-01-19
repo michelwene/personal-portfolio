@@ -1,0 +1,10 @@
+.presentation__name{
+    background: linear-gradient(0.9turn, #9845E8, #33D2FF, #DD5789);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 1rem 0;
+}

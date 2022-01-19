@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.header__info {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+  height: 50%;
+}
+
+.navigation {
+}
+.navigation__list {
+  align-items: center;
+  display: flex;
+  column-gap: 30px;
+}
+
+.navigation__item:last-child {
+  width: 24px;
+  height: 24px;
+}
+.navigation__button {
+  background: url(../images/sun-black.svg) center / cover no-repeat;
+  border: 0 none;
+  width: 24px;
+  height: 24px;
+}
