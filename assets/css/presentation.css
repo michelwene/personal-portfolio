@@ -1,10 +1,42 @@
-.presentation__name{
-    background: linear-gradient(0.9turn, #9845E8, #33D2FF, #DD5789);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 96px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    padding: 1rem 0;
+.presentation__beforeName {
+  font-family: "Inter", sans-serif;
+  font-size: 16;
+}
+
+.presentation__name {
+  background: linear-gradient(0.9turn, #9845e8, #33d2ff, #dd5789);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding: 1rem 0;
+}
+
+.presentation__afterName {
+  font-family: "Inter", sans-serif;
+  font-size: 18;
+  line-height: 24px;
+  padding-bottom: 3rem;
+}
+
+.presentation__button {
+  background: url(../images/arrow-black.svg) 70px 15px / 33px no-repeat;
+  border: 0 none;
+  height: 35px;
+  text-align: left;
+  width: 115px;
+}
+
+.presentation__button:hover {
+  border: 1px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.presentation__button a {
+  font-family: "Inter", sans-serif;
+  font-size: 24;
+  text-decoration: none;
 }

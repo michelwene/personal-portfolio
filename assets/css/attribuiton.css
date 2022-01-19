@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin: auto;
   width: 77%;
+  padding: 5rem 0;
 }
 
 .contact {
@@ -24,8 +25,13 @@
 }
 
 .contact__button a {
-    color: #000;
+  color: #000;
   text-decoration: none;
+}
+
+.contact__button:hover {
+  box-shadow: 0px 30px 40px -10px rgba(79, 86, 94, 0.425);
+  cursor: pointer;
 }
 
 .contact__email {

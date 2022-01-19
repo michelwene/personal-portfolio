@@ -1,0 +1,39 @@
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 60px;
+  padding: 8rem 0 5rem 0;
+}
+.project {
+  height: 495px;
+  width: 511px;
+}
+.featured__projects::before {
+  content: "ALGUNS PROJETOS REALIZADOS";
+  display: block;
+  height: 22px;
+  position: relative;
+  top: -51px;
+  width: 250px;
+}
+
+.project__img-1 {
+  background: url(../images/project-1.png) center / cover no-repeat;
+  height: 338px;
+}
+
+.project__img-2 {
+  background: url(../images/project-2.png) center / cover no-repeat;
+  height: 338px;
+}
+
+.project__img-3 {
+  background: url(../images/project-3.png) center / cover no-repeat;
+  height: 338px;
+}
+
+.project__img-4 {
+  background: url(../images/project-4.png) center / cover no-repeat;
+  height: 338px;
+}
