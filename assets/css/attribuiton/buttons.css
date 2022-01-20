@@ -1,0 +1,64 @@
+.buttons {
+  display: flex;
+}
+
+.contact__button {
+  background-color: #ffffff;
+  border: 2px solid #c6c6c6;
+  border-radius: 5px;
+  height: 50px;
+  width: 210px;
+}
+
+.contact__button a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact__button:hover {
+  box-shadow: 0px 30px 40px -10px rgba(79, 86, 94, 0.425);
+  cursor: pointer;
+}
+
+.contact__email {
+  background: url(../images/mail-black.svg) 20px 13px / 24px no-repeat;
+}
+
+.contact__linkedin {
+  background: url(../images/linkedin-black.svg) 35px 13px / 24px no-repeat;
+}
+
+.contact__medium {
+  background: url(../images/medium-black.svg) 35px 13px / 24px no-repeat;
+}
+
+.contact__github {
+  background: url(../images/github-black.svg) 35px 13px / 24px no-repeat;
+}
+
+@media screen and (min-width: 0) {
+  .buttons {
+    column-gap: 0px;
+    flex-direction: column;
+    padding-top: 20px;
+    row-gap: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .buttons {
+    column-gap: 15px;
+    height: 150px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .buttons {
+    height: auto;
+    flex-direction: row;
+    padding-top: 0;
+  }
+}

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;500&display=swap");
-
 :root {
   --preto: 201f1f;
 }
@@ -16,4 +15,8 @@ html {
 
 hr {
   width: 77%;
+}
+
+.firstLine{
+  width: 100%;
 }

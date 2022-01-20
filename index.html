@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
       rel="icon"
       type="image/svg"
       sizes="32x32"
@@ -15,6 +23,22 @@
     <link rel="stylesheet" href="./assets/css/attribuiton.css" />
     <link rel="stylesheet" href="./assets/css/presentation.css" />
     <link rel="stylesheet" href="./assets/css/projects.css" />
+    <link rel="stylesheet" href="./assets/css/experiences.css" />
+    <link rel="stylesheet" href="./assets/css/experiences/tns.css" />
+    <link rel="stylesheet" href="./assets/css/experiences/item.css" />
+    <link rel="stylesheet" href="./assets/css/experiences/control.css" />
+    <link rel="stylesheet" href="./assets/css/attribuiton/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/projects/description.css" />
+    <link rel="stylesheet" href="./assets/css/projects/icon-project.css" />
+    <link rel="stylesheet" href="./assets/css/projects/project-github.css" />
+    <link rel="stylesheet" href="./assets/css/projects/project-info.css" />
+    <link rel="stylesheet" href="./assets/css/projects/project-infoMain.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/projects/project-link-pages.css"
+    />
+    <link rel="stylesheet" href="./assets/css/projects/project-link.css" />
+    <link rel="stylesheet" href="./assets/css/projects/project-title.css" />
     <title>Portifólio pessoal - Michel Wene</title>
   </head>
   <body class="app">
@@ -41,154 +65,245 @@
           Eu sou desenvolvedor de software Front-end, moro em Quatá-SP e sou
           estudante de Análise e Desenvolvimento de Sistemas. Eu gosto de
           desenvolver sites, aplicativos, blogs, landing pages, tudo que for da
-          área de desenvolvimento Front-end eu estou dentro. Atualmente estou
-          trabalhando na açucareira Zilor para continuar me mantendo e ajudando
-          minha família, porém estou na busca da minha primeira vaga como
-          programador.
+          área de desenvolvimento Front-end eu estou dentro.
         </p>
         <a href="https://www.linkedin.com/in/michelwene/" target="_blank">
           <button class="presentation__button">Diga Oi</button>
         </a>
       </section>
-      <section class="experience">
-        <div>Experiência</div>
-        <div>
-          <div>
-            <div>
+      <section class="experiences">
+        <div class="experiences__title">Experiências profissionais</div>
+        <ul class="control" id="custom-control">
+          <li class="prev"><i class="fas fa-angle-left fa-2x"></i></li>
+          <li class="next"><i class="fas fa-angle-right fa-2x"></i></li>
+        </ul>
+        <div class="my-slider">
+          <div class="experience__item">
+            <div class="item__office">
               <p>Desenvolvedor Front-end</p>
-              <p>out. de 2021 – o momento</p>
+              <p>out. de 2021 – até o momento</p>
             </div>
-            <ul>
+            <ul class="item__description">
               <li>
-                Desenvolvimento de aplicações WEB utilizando HTML, CSS,
+                - Desenvolvimento de aplicações WEB utilizando HTML, CSS,
                 JavaScript e React
               </li>
-              <li>Aplicação de conceitos de design responsivo.</li>
-              <li>Aplicação de conceitos do BEM (Block Element Modifier)</li>
-              <li>Versionamento de código com Git e Github.</li>
-              <li>Utilização de styled-components, React Hooks.</li>
+              <li>- Aplicação de conceitos de design responsivo.</li>
+              <li>- Aplicação de conceitos do BEM (Block Element Modifier)</li>
+              <li>- Versionamento de código com Git e Github.</li>
+              <li>- Utilização de styled-components, React Hooks.</li>
             </ul>
           </div>
-          <div>
-            <div>
+          <div class="experience__item">
+            <div class="item__office">
               <p>Técnico de laboratório</p>
               <p>ago. de 2019 – até o momento</p>
             </div>
-            <ul>
+            <ul class="item__description">
               <li>
-                Exercer função de liderança de turno, no laboratório responsável
-                por análisar a cana-de-açúcar. (PCTS).
+                - Exercer função de liderança de turno, no laboratório
+                responsável por análisar a cana-de-açúcar. (PCTS).
               </li>
               <li>
-                Coletar e realizar análises físico químicas e sensoriais da
+                - Coletar e realizar análises físico químicas e sensoriais da
                 matéria-prima do açúcar cristal.
               </li>
               <li>
-                Coletar e realizar análises físico químicas e sensoriais em
+                - Coletar e realizar análises físico químicas e sensoriais em
                 produtos intermediários, subprodutos e produtos finais do
                 processo de produção de açúcar, etanol, energia e biomassa;
               </li>
               <li>
-                Revisar e inspecionar o funcionamento dos equipamentos e
+                - Revisar e inspecionar o funcionamento dos equipamentos e
                 aparelhos do setor (check-list), providenciando medidas
                 corretivas e preventivas quanto a manutenção mecânica e elétrica
                 dos mesmos, visando obter precisão dos dados analíticos.
               </li>
               <li>
-                Trabalhar em conformidade com as normas de segurança e higiene
+                - Trabalhar em conformidade com as normas de segurança e higiene
                 do trabalho de forma a evitar acidentes. Além de assegurar a
                 devida utilização de todos os equipamentos de segurança
                 necessários (EPI) pelos colaboradores de sua equipe.
               </li>
             </ul>
           </div>
-          <div>
-            <div>
+          <div class="experience__item">
+            <div class="item__office">
               <p>Suporte em TI</p>
-              <p>nov. de 2021 – o momento</p>
+              <p>nov. de 2021 – até o momento</p>
             </div>
-            <ul>
+            <ul class="item__description">
               <li>
-                No período de entressafra exerço a função de ajudante de suporte
-                em TI, cerca de 4 meses. Realizo prestação de serviços de
-                informática em geral para toda empresa.
+                - No período de entressafra exerço a função de ajudante de
+                suporte em TI, cerca de 4 meses. Realizo prestação de serviços
+                de informática em geral para toda empresa.
               </li>
-              <li>Instalação e configuração de softwares.</li>
+              <li>- Instalação e configuração de softwares.</li>
               <li>
-                Resolução de problemas em softwares utilizados no cotidiano do
+                - Resolução de problemas em softwares utilizados no cotidiano do
                 usuário.
               </li>
               <li>
-                Manutenção e instalação de hardwares nos computadores utilizados
-                na empresa.
+                - Manutenção e instalação de hardwares nos computadores
+                utilizados na empresa.
               </li>
-              <li>Formatação de computadores.</li>
+              <li>- Formatação de computadores.</li>
             </ul>
           </div>
-          <div>
-            <div>
+          <div class="experience__item">
+            <div class="item__office">
               <p>Suporte em TI</p>
               <p>dez. de 2020 – mar. de 2021</p>
             </div>
+            <ul class="item__description">
+              <li>
+                - No período de entressafra exerço a função de ajudante de
+                suporte em TI, cerca de 4 meses. Realizo prestação de serviços
+                de informática em geral para toda empresa.
+              </li>
+              <li>- Instalação e configuração de softwares.</li>
+              <li>
+                - Resolução de problemas em softwares utilizados no cotidiano do
+                usuário.
+              </li>
+              <li>
+                - Manutenção e instalação de hardwares nos computadores
+                utilizados na empresa.
+              </li>
+              <li>- Formatação de computadores.</li>
+            </ul>
           </div>
-          <div>
-            <div>
+          <div class="experience__item">
+            <div class="item__office">
               <p>Auxiliar de laboratório</p>
               <p>mai. de 2018 – ago. de 2019</p>
             </div>
-            <ul>
+            <ul class="item__description">
               <li>
-                Responsável pela coleta e análise fisico químicas de amostras em
-                processamento e de produtos finais dos processos de açucar,
+                - Responsável pela coleta e análise fisico químicas de amostras
+                em processamento e de produtos finais dos processos de açucar,
                 etanol e levedura seca.
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <hr />
+      <hr class="firstLine" />
       <section class="projects">
         <div class="project featured__projects">
           <div class="project__img-1"></div>
-          <div>
-            <div>
-              <div>
-                <link rel="button" href="" />
-                <link rel="button" href="" />
+          <div class="project__info">
+            <div class="project__infoMain">
+              <div class="project__title">
+                Componente de introdução com formulário de inscrição
               </div>
+              <div class="project__link">
+                <a
+                  href="https://github.com/michelwene?tab=repositories"
+                  target="_blank"
+                >
+                  <button class="icon__project project__github"></button>
+                </a>
+                <a
+                  href="https://github.com/michelwene/intro-component-with-signup-form"
+                  target="_blank"
+                >
+                  <button class="icon__project project__link--Pages1"></button>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <p class="description">Página de formulário de inscricão.</p>
+              <p class="description__tecnologies">HTML - CSS - JavaScript</p>
             </div>
           </div>
         </div>
-        <div class="project">
+        <div class="project project__adjust">
           <div class="project__img-2"></div>
-          <div>
-            <div>
-              <div>
-                <link rel="button" href="" />
-                <link rel="button" href="" />
+          <div class="project__info">
+            <div class="project__infoMain">
+              <div class="project__title">
+                Página de destino da agência Sunnyside
               </div>
+              <div class="project__link">
+                <a
+                  href="https://github.com/michelwene?tab=repositories"
+                  target="_blank"
+                >
+                  <button class="icon__project project__github"></button>
+                </a>
+                <a
+                  href="https://github.com/michelwene/sunnyside-agency-landing-page"
+                  target="_blank"
+                >
+                  <button class="icon__project project__link--Pages1"></button>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <p class="description">
+                Landing page de uma agência publicitária.
+              </p>
+              <p class="description__tecnologies">HTML - CSS - JavaScript</p>
             </div>
           </div>
         </div>
         <div class="project">
           <div class="project__img-3"></div>
-          <div>
-            <div>
-              <div>
-                <link rel="button" href="" />
-                <link rel="button" href="" />
+          <div class="project__info">
+            <div class="project__infoMain">
+              <div class="project__title">
+                Componente de visualização do artigo
               </div>
+              <div class="project__link">
+                <a
+                  href="https://github.com/michelwene?tab=repositories"
+                  target="_blank"
+                >
+                  <button class="icon__project project__github"></button>
+                </a>
+                <a
+                  href="https://github.com/michelwene/article-preview-component"
+                  target="_blank"
+                >
+                  <button class="icon__project project__link--Pages1"></button>
+                </a>
+              </div>
+            </div>
+            <div class="project__description">
+              <p class="description">
+                Componente de visualização de artigo com botão de
+                compartilhamento de mídias sociais.
+              </p>
+              <p class="description__tecnologies">HTML - CSS - JavaScript</p>
             </div>
           </div>
         </div>
         <div class="project">
           <div class="project__img-4"></div>
-          <div>
-            <div>
-              <div>
-                <link rel="button" href="" />
-                <link rel="button" href="" />
+          <div class="project__info">
+            <div class="project__infoMain">
+              <div class="project__title">seção de depoimentos</div>
+              <div class="project__link">
+                <a
+                  href="https://github.com/michelwene?tab=repositories"
+                  target="_blank"
+                >
+                  <button class="icon__project project__github"></button>
+                </a>
+                <a
+                  href="https://github.com/michelwene/testimonials-grid-section"
+                  target="_blank"
+                >
+                  <button class="icon__project project__link--Pages1"></button>
+                </a>
               </div>
+            </div>
+            <div class="project__description">
+              <p class="description">
+                Componente de seção de comentários/depoimentos de usuários.
+              </p>
+              <p class="description__tecnologies">HTML - CSS</p>
             </div>
           </div>
         </div>
@@ -214,5 +329,7 @@
         </a>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>

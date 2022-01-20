@@ -1,0 +1,21 @@
+.project__infoMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 0) {
+  .project__infoMain {
+    align-items: center;
+    row-gap: 10px;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project__infoMain {
+    row-gap: 0;
+    flex-direction: row;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,28 @@
+.control li {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 6px 12px;
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+}
+
+.control li:hover {
+  background: black;
+}
+
+.control li.prev {
+  left: 20px;
+}
+
+.control li.next {
+  right: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .control {
+    display: initial;
+  }
+}

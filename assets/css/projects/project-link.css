@@ -1,0 +1,4 @@
+.project__link {
+  display: flex;
+  column-gap: 20px;
+}

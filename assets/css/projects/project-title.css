@@ -1,0 +1,21 @@
+.project__title {
+  font-family: "Inter", sans-serif;
+}
+
+@media screen and (min-width: 0) {
+  .project__title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .project__title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,29 @@
+.item__office {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.item__description {
+  line-height: 1.5;
+}
+
+.item__office p:first-child {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 0) {
+  .item__office {
+    align-items: center;
+    row-gap: 10px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item__office {
+    align-items: center;
+    row-gap: 0;
+    flex-direction: row;
+  }
+}

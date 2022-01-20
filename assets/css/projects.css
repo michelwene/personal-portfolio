@@ -1,14 +1,17 @@
 .projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  row-gap: 60px;
   padding: 8rem 0 5rem 0;
 }
 .project {
-  height: 495px;
-  width: 511px;
+  height: 550px;
 }
+
+.project__adjust {
+  margin-top: 1.5rem;
+}
+
 .featured__projects::before {
   content: "ALGUNS PROJETOS REALIZADOS";
   display: block;
@@ -36,4 +39,34 @@
 .project__img-4 {
   background: url(../images/project-4.png) center / cover no-repeat;
   height: 338px;
+}
+
+@media screen and (min-width: 0) {
+  .projects {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 100px;
+  }
+
+  .project {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 60px;
+  }
+  .project {
+    width: 511px;
+  }
 }

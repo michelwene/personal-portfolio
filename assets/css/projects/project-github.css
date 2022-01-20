@@ -1,0 +1,8 @@
+.project__github {
+  background: url(../images/github-black.svg) center / cover no-repeat;
+}
+
+.project__github:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

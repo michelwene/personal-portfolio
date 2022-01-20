@@ -1,0 +1,12 @@
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.description__tecnologies {
+  color: #004e93;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding-top: 24px;
+}
