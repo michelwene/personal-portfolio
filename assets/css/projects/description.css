@@ -5,7 +5,7 @@
 }
 
 .description__tecnologies {
-  color: #004e93;
+  color: var(--azul-escuro);
   font-family: "Inter", sans-serif;
   font-size: 14px;
   padding-top: 24px;

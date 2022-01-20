@@ -4,7 +4,7 @@
 }
 
 .tns-nav button {
-  background-color: #a5a5a5;
+  background-color: var(--cinza-escuro);
   border: 0 none;
   border-radius: 20px;
   height: 10px;
@@ -13,5 +13,5 @@
 }
 
 .tns-nav .tns-nav-active {
-  background-color: black;
+  background-color: var(--preto);
 }

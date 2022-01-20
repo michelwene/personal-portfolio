@@ -1,7 +1,7 @@
 .control li {
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--background);
   border-radius: 50%;
-  color: white;
+  color: var(--branco);
   cursor: pointer;
   padding: 6px 12px;
   position: absolute;
@@ -10,7 +10,8 @@
 }
 
 .control li:hover {
-  background: black;
+  background: var(--cinza);
+  color: var(--preto);
 }
 
 .control li.prev {

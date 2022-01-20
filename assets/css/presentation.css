@@ -4,7 +4,7 @@
 }
 
 .presentation__name {
-  background: linear-gradient(0.9turn, #9845e8, #33d2ff, #dd5789);
+  background: linear-gradient(0.9turn, var(--lilas), var(--azul), var(--vermelho));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -29,7 +29,7 @@
 }
 
 .presentation__button:hover {
-  border: 1px solid #000;
+  border: 1px solid var(--preto);
   border-radius: 20px;
   cursor: pointer;
 }
@@ -40,22 +40,20 @@
   text-decoration: none;
 }
 
-
 @media screen and (min-width: 0) {
-  .presentation__name{
+  .presentation__name {
     font-size: 50px;
   }
 }
 
-
 @media screen and (min-width: 768px) {
-  .presentation__name{
+  .presentation__name {
     font-size: 80px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .presentation__name{
+  .presentation__name {
     font-size: 96px;
   }
 }

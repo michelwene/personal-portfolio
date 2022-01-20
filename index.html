@@ -12,6 +12,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/temp/db1f739898/UntitledProject/style-svg.css"
+    />
+    <link
       rel="icon"
       type="image/svg"
       sizes="32x32"
@@ -42,22 +46,40 @@
     <title>Portifólio pessoal - Michel Wene</title>
   </head>
   <body class="app">
-    <header class="header">
+    <header class="header" id="setHeader">
       <div class="header__info">
         <span class="name__Letters">MWMC</span>
         <nav class="navigation">
           <ul class="navigation__list">
-            <li class="navigation__item">Projetos</li>
-            <li class="navigation__item">Resumo</li>
-            <li class="navigation__item">Contato</li>
             <li class="navigation__item">
-              <button class="navigation__button"></button>
+              <a
+                href="./assets/arquives/Currículo_Michel.pdf"
+                download="Currículo_Michel"
+                >Baixe meu currículo</a
+              >
+            </li>
+            <li
+              class="navigation__item"
+              onclick="window.location.href = '#header-resume'"
+            >Resumo
+            </li>
+            <li
+              class="navigation__item"
+              onclick="window.location.href = '#section-projects'"
+            >
+            Projetos
+            </li>
+            <li
+              class="navigation__item"
+              onclick="window.location.href = '#section-contacts'"
+            >
+              Contato
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main class="content">
+    <main class="content" id="header-resume">
       <section class="presentation">
         <p class="presentation__beforeName">Oi, meu nome é</p>
         <h1 class="presentation__name">Michel Wene</h1>
@@ -189,7 +211,7 @@
         </div>
       </section>
       <hr class="firstLine" />
-      <section class="projects">
+      <section class="projects" id="section-projects">
         <div class="project featured__projects">
           <div class="project__img-1"></div>
           <div class="project__info">
@@ -310,7 +332,7 @@
       </section>
     </main>
     <hr />
-    <footer class="attribuiton">
+    <footer class="attribuiton" id="section-contacts">
       <div class="contact">Contatos</div>
       <div class="buttons">
         <a href="mailto:michelwene@hotmail.com" target="_blank">
@@ -329,7 +351,10 @@
         </a>
       </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script type="module" src="./script.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"
+    ></script>
+    <script defer type="module" src="./script.js"></script>
   </body>
 </html>

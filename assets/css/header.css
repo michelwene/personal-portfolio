@@ -1,7 +1,15 @@
 .header {
+  background-color: rgba(51, 51, 51, 0.15);
+  box-shadow: 3px 2px 5px rgba(17, 17, 17, 0.55);
+  backdrop-filter: blur(10px);
   align-items: center;
   display: flex;
   height: 100px;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .header__info {
@@ -15,15 +23,13 @@
   column-gap: 30px;
 }
 
-.navigation__item:last-child {
-  width: 24px;
-  height: 24px;
+.navigation__item {
+  cursor: pointer;
 }
-.navigation__button {
-  background: url(../images/sun-black.svg) center / cover no-repeat;
-  border: 0 none;
-  width: 24px;
-  height: 24px;
+
+.navigation__item a {
+  color: var(--preto);
+  text-decoration: none;
 }
 
 @media screen and (min-width: 0) {
@@ -36,6 +42,12 @@
     width: 100vw;
   }
 
+  .navigation__list{
+    justify-content: center;
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+
   .name__Letters {
     display: none;
   }
@@ -44,7 +56,7 @@
 @media screen and (min-width: 768px) {
   .header {
     justify-content: space-around;
-    width: auto;
+    width: 100vw;
   }
 
   .header__info {
