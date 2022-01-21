@@ -4,7 +4,12 @@
 }
 
 .presentation__name {
-  background: linear-gradient(0.9turn, var(--lilas), var(--azul), var(--vermelho));
+  background: linear-gradient(
+    0.9turn,
+    var(--lilas),
+    var(--azul),
+    var(--vermelho)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -21,14 +26,18 @@
 }
 
 .presentation__button {
-  background: url(../images/arrow-black.svg) 70px 15px / 33px no-repeat;
+  background: url(../images/arrow-white.svg) 70px 15px / 33px no-repeat;
   border: 0 none;
+  color: var(--branco);
   height: 35px;
   text-align: left;
   width: 115px;
 }
 
 .presentation__button:hover {
+  background: url(../images/arrow-black.svg) 70px 15px / 33px no-repeat;
+  background-color: var(--branco);
+  color: var(--preto);
   border: 1px solid var(--preto);
   border-radius: 20px;
   cursor: pointer;

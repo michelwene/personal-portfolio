@@ -1,7 +1,7 @@
 .header {
   background-color: rgba(51, 51, 51, 0.15);
-  box-shadow: 3px 2px 5px rgba(17, 17, 17, 0.55);
   backdrop-filter: blur(10px);
+  box-shadow: 3px 2px 5px rgba(17, 17, 17, 0.55);
   align-items: center;
   display: flex;
   height: 100px;
@@ -19,16 +19,20 @@
 }
 .navigation__list {
   align-items: center;
-  display: flex;
   column-gap: 30px;
+  display: flex;
 }
 
 .navigation__item {
   cursor: pointer;
 }
 
+.navigation__item:hover {
+  text-decoration: underline;
+}
+
 .navigation__item a {
-  color: var(--preto);
+  color: var(--branco);
   text-decoration: none;
 }
 
@@ -42,10 +46,11 @@
     width: 100vw;
   }
 
-  .navigation__list{
+  .navigation__list {
     justify-content: center;
-    row-gap: 20px;
     flex-wrap: wrap;
+    row-gap: 20px;
+    width: 95vw;
   }
 
   .name__Letters {

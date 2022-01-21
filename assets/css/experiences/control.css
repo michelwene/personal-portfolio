@@ -1,7 +1,7 @@
 .control li {
-  background: var(--background);
+  background: var(--branco);
   border-radius: 50%;
-  color: var(--branco);
+  color: var(--preto);
   cursor: pointer;
   padding: 6px 12px;
   position: absolute;

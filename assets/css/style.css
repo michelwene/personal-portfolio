@@ -5,24 +5,25 @@
   --azul: #33d2ff;
   --azul-escuro: #004e93;
   --vermelho: #c40010;
-  --box-shadow: rgba(79, 86, 94, 0.425);
+  --box-shadow: rgba(223, 223, 223, 0.425);
   --branco: #ffffff;
-  --bg: #fdfdfd;
+  --bg: #333333;
   --cinza: #c6c6c6;
   --cinza-escuro: #a5a5a5;
   --background: rgba(0, 0, 0, 0.5);
+  --tns-button: #000;
 }
 
 html {
   background-color: var(--bg);
-  color: var(--preto);
+  color: var(--branco);
   font-family: "Poppins", sans-serif;
   height: 100%;
   scroll-behavior: smooth;
 }
 
 .content {
-  width: 77%;
+  width: 77vw;
   margin: auto;
   padding-top: 150px;
 }

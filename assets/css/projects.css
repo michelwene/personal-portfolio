@@ -6,6 +6,7 @@
 }
 .project {
   height: 550px;
+  
 }
 
 .project__adjust {
@@ -19,6 +20,7 @@
   position: relative;
   top: -51px;
   width: 250px;
+  z-index: -1;
 }
 
 .project__img-1 {
