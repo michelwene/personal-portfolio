@@ -10,6 +10,14 @@
   position: fixed;
   top: 0;
   -webkit-backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.header:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
 }
 
 .header__info {
